@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		643C04A71E2F9BC700BACC76 /* SoleraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643C04A61E2F9BC700BACC76 /* SoleraTests.swift */; };
+		645611ED1E2FA4C40070E693 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645611EC1E2FA4C40070E693 /* Network.swift */; };
+		645611EF1E2FA4E60070E693 /* CheckoutPriceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645611EE1E2FA4E60070E693 /* CheckoutPriceTableViewCell.swift */; };
+		645611F11E2FA4F90070E693 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645611F01E2FA4F90070E693 /* Persistence.swift */; };
+		645611F31E2FA5050070E693 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645611F21E2FA5050070E693 /* Settings.swift */; };
+		645611F51E2FB38C0070E693 /* ShopViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645611F41E2FB38C0070E693 /* ShopViewControllerTests.swift */; };
+		645611F71E2FB3AA0070E693 /* CheckOutViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645611F61E2FB3AA0070E693 /* CheckOutViewControllerTests.swift */; };
+		645611F91E2FB3BD0070E693 /* CurrencyViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645611F81E2FB3BD0070E693 /* CurrencyViewControllerTests.swift */; };
+		648DF8351E2F9EBA007FE15D /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648DF8341E2F9EBA007FE15D /* ShopViewController.swift */; };
+		648DF8391E2F9F03007FE15D /* CheckOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648DF8381E2F9F03007FE15D /* CheckOutViewController.swift */; };
+		648DF83B1E2F9F19007FE15D /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648DF83A1E2F9F19007FE15D /* CurrencyViewController.swift */; };
+		648DF83D1E2F9F49007FE15D /* Basket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648DF83C1E2F9F49007FE15D /* Basket.swift */; };
+		648DF83F1E2F9F53007FE15D /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648DF83E1E2F9F53007FE15D /* Currency.swift */; };
+		648DF8411E2F9F60007FE15D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648DF8401E2F9F60007FE15D /* Item.swift */; };
+		648DF8491E2F9FCF007FE15D /* ShopItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648DF8481E2F9FCF007FE15D /* ShopItemTableViewCell.swift */; };
+		648DF84B1E2F9FDC007FE15D /* CheckoutItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648DF84A1E2F9FDC007FE15D /* CheckoutItemTableViewCell.swift */; };
+		648DF84F1E2F9FFD007FE15D /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648DF84E1E2F9FFD007FE15D /* CurrencyTableViewCell.swift */; };
+		64EB3D451E2F9D6F00691F2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EB3D441E2F9D6F00691F2E /* AppDelegate.swift */; };
+		64EB3D491E2F9D8D00691F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64EB3D471E2F9D8D00691F2E /* Assets.xcassets */; };
+		64EB3D541E2F9E0A00691F2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64EB3D4F1E2F9E0A00691F2E /* LaunchScreen.storyboard */; };
+		64EB3D551E2F9E0A00691F2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64EB3D511E2F9E0A00691F2E /* Main.storyboard */; };
+		87B5AF14EB6CDD4B96FC88AE /* Pods_SoleraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42F509D1E277426D0F53E0E /* Pods_SoleraTests.framework */; };
+		FCB02C2D0786B41CA324A169 /* Pods_Solera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7967FC3CE3DBE27304B3D17 /* Pods_Solera.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		643C04A31E2F9BC700BACC76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 643C04861E2F9BC700BACC76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 643C048D1E2F9BC700BACC76;
+			remoteInfo = Solera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2446A5438506363F534BFF18 /* Pods-Solera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Solera/Pods-Solera.debug.xcconfig"; sourceTree = "<group>"; };
+		349E8C1AF99C3162A8CE53EB /* Pods-Solera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solera.release.xcconfig"; path = "Pods/Target Support Files/Pods-Solera/Pods-Solera.release.xcconfig"; sourceTree = "<group>"; };
+		3B2C12DF6E477E211638FCE7 /* Pods-SoleraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoleraTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoleraTests/Pods-SoleraTests.release.xcconfig"; sourceTree = "<group>"; };
+		643C048E1E2F9BC700BACC76 /* Solera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		643C04A21E2F9BC700BACC76 /* SoleraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoleraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		643C04A61E2F9BC700BACC76 /* SoleraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoleraTests.swift; sourceTree = "<group>"; };
+		643C04A81E2F9BC700BACC76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		645611EC1E2FA4C40070E693 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		645611EE1E2FA4E60070E693 /* CheckoutPriceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckoutPriceTableViewCell.swift; path = Solera/View/UITableViewCell/CheckoutPriceTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		645611F01E2FA4F90070E693 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		645611F21E2FA5050070E693 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		645611F41E2FB38C0070E693 /* ShopViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewControllerTests.swift; sourceTree = "<group>"; };
+		645611F61E2FB3AA0070E693 /* CheckOutViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckOutViewControllerTests.swift; sourceTree = "<group>"; };
+		645611F81E2FB3BD0070E693 /* CurrencyViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyViewControllerTests.swift; sourceTree = "<group>"; };
+		648DF8341E2F9EBA007FE15D /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		648DF8381E2F9F03007FE15D /* CheckOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckOutViewController.swift; sourceTree = "<group>"; };
+		648DF83A1E2F9F19007FE15D /* CurrencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
+		648DF83C1E2F9F49007FE15D /* Basket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basket.swift; sourceTree = "<group>"; };
+		648DF83E1E2F9F53007FE15D /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		648DF8401E2F9F60007FE15D /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		648DF8481E2F9FCF007FE15D /* ShopItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopItemTableViewCell.swift; sourceTree = "<group>"; };
+		648DF84A1E2F9FDC007FE15D /* CheckoutItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutItemTableViewCell.swift; sourceTree = "<group>"; };
+		648DF84E1E2F9FFD007FE15D /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		648DF8501E2FA3D5007FE15D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64EB3D441E2F9D6F00691F2E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64EB3D471E2F9D8D00691F2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64EB3D501E2F9E0A00691F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64EB3D521E2F9E0A00691F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0412717C6A84D48C740FA4E /* Pods-SoleraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoleraTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoleraTests/Pods-SoleraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D42F509D1E277426D0F53E0E /* Pods_SoleraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoleraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7967FC3CE3DBE27304B3D17 /* Pods_Solera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Solera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		643C048B1E2F9BC700BACC76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB02C2D0786B41CA324A169 /* Pods_Solera.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643C049F1E2F9BC700BACC76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B5AF14EB6CDD4B96FC88AE /* Pods_SoleraTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		643C04851E2F9BC700BACC76 = {
+			isa = PBXGroup;
+			children = (
+				643C04901E2F9BC700BACC76 /* Solera */,
+				643C04A51E2F9BC700BACC76 /* SoleraTests */,
+				643C048F1E2F9BC700BACC76 /* Products */,
+				E58141A9897167E393EE121B /* Pods */,
+				95995B30BEE24C70E1DA8906 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		643C048F1E2F9BC700BACC76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				643C048E1E2F9BC700BACC76 /* Solera.app */,
+				643C04A21E2F9BC700BACC76 /* SoleraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		643C04901E2F9BC700BACC76 /* Solera */ = {
+			isa = PBXGroup;
+			children = (
+				648DF8501E2FA3D5007FE15D /* Info.plist */,
+				64EB3D431E2F9D6F00691F2E /* AppDelegate */,
+				64EB3D461E2F9D8D00691F2E /* Resources */,
+				648DF8361E2F9ECA007FE15D /* Model */,
+				648DF8371E2F9ECE007FE15D /* Controller */,
+				64EB3D4D1E2F9E0A00691F2E /* View */,
+				648DF8331E2F9EBA007FE15D /* ViewController */,
+			);
+			path = Solera;
+			sourceTree = "<group>";
+		};
+		643C04A51E2F9BC700BACC76 /* SoleraTests */ = {
+			isa = PBXGroup;
+			children = (
+				643C04A81E2F9BC700BACC76 /* Info.plist */,
+				643C04A61E2F9BC700BACC76 /* SoleraTests.swift */,
+				645611F41E2FB38C0070E693 /* ShopViewControllerTests.swift */,
+				645611F61E2FB3AA0070E693 /* CheckOutViewControllerTests.swift */,
+				645611F81E2FB3BD0070E693 /* CurrencyViewControllerTests.swift */,
+			);
+			path = SoleraTests;
+			sourceTree = "<group>";
+		};
+		648DF8331E2F9EBA007FE15D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				648DF8341E2F9EBA007FE15D /* ShopViewController.swift */,
+				648DF8381E2F9F03007FE15D /* CheckOutViewController.swift */,
+				648DF83A1E2F9F19007FE15D /* CurrencyViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		648DF8361E2F9ECA007FE15D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				648DF8401E2F9F60007FE15D /* Item.swift */,
+				648DF83C1E2F9F49007FE15D /* Basket.swift */,
+				648DF83E1E2F9F53007FE15D /* Currency.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		648DF8371E2F9ECE007FE15D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				645611EC1E2FA4C40070E693 /* Network.swift */,
+				645611F01E2FA4F90070E693 /* Persistence.swift */,
+				645611F21E2FA5050070E693 /* Settings.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		64EB3D431E2F9D6F00691F2E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				64EB3D441E2F9D6F00691F2E /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		64EB3D461E2F9D8D00691F2E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64EB3D471E2F9D8D00691F2E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		64EB3D4D1E2F9E0A00691F2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64EB3D4E1E2F9E0A00691F2E /* Storyboard */,
+				64EB3D531E2F9E0A00691F2E /* UITableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64EB3D4E1E2F9E0A00691F2E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				64EB3D4F1E2F9E0A00691F2E /* LaunchScreen.storyboard */,
+				64EB3D511E2F9E0A00691F2E /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		64EB3D531E2F9E0A00691F2E /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				648DF8481E2F9FCF007FE15D /* ShopItemTableViewCell.swift */,
+				648DF84A1E2F9FDC007FE15D /* CheckoutItemTableViewCell.swift */,
+				645611EE1E2FA4E60070E693 /* CheckoutPriceTableViewCell.swift */,
+				648DF84E1E2F9FFD007FE15D /* CurrencyTableViewCell.swift */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		95995B30BEE24C70E1DA8906 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7967FC3CE3DBE27304B3D17 /* Pods_Solera.framework */,
+				D42F509D1E277426D0F53E0E /* Pods_SoleraTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E58141A9897167E393EE121B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2446A5438506363F534BFF18 /* Pods-Solera.debug.xcconfig */,
+				349E8C1AF99C3162A8CE53EB /* Pods-Solera.release.xcconfig */,
+				B0412717C6A84D48C740FA4E /* Pods-SoleraTests.debug.xcconfig */,
+				3B2C12DF6E477E211638FCE7 /* Pods-SoleraTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		643C048D1E2F9BC700BACC76 /* Solera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 643C04AB1E2F9BC700BACC76 /* Build configuration list for PBXNativeTarget "Solera" */;
+			buildPhases = (
+				BA7E7B541FAC8324FA033E99 /* [CP] Check Pods Manifest.lock */,
+				643C048A1E2F9BC700BACC76 /* Sources */,
+				643C048B1E2F9BC700BACC76 /* Frameworks */,
+				643C048C1E2F9BC700BACC76 /* Resources */,
+				F5BD2D586FCC1A0AE6BAAC03 /* [CP] Embed Pods Frameworks */,
+				C01B8258C8349AE55B642510 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Solera;
+			productName = Solera;
+			productReference = 643C048E1E2F9BC700BACC76 /* Solera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		643C04A11E2F9BC700BACC76 /* SoleraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 643C04AE1E2F9BC700BACC76 /* Build configuration list for PBXNativeTarget "SoleraTests" */;
+			buildPhases = (
+				48F0A25C051D017251C5551E /* [CP] Check Pods Manifest.lock */,
+				643C049E1E2F9BC700BACC76 /* Sources */,
+				643C049F1E2F9BC700BACC76 /* Frameworks */,
+				643C04A01E2F9BC700BACC76 /* Resources */,
+				327ECBE6557C54C78859E050 /* [CP] Embed Pods Frameworks */,
+				50B2AEFEB44E0E9AC429C7C3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				643C04A41E2F9BC700BACC76 /* PBXTargetDependency */,
+			);
+			name = SoleraTests;
+			productName = SoleraTests;
+			productReference = 643C04A21E2F9BC700BACC76 /* SoleraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		643C04861E2F9BC700BACC76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Manuel Escrig";
+				TargetAttributes = {
+					643C048D1E2F9BC700BACC76 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 92K55N8443;
+						ProvisioningStyle = Automatic;
+					};
+					643C04A11E2F9BC700BACC76 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 92K55N8443;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 643C048D1E2F9BC700BACC76;
+					};
+				};
+			};
+			buildConfigurationList = 643C04891E2F9BC700BACC76 /* Build configuration list for PBXProject "Solera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 643C04851E2F9BC700BACC76;
+			productRefGroup = 643C048F1E2F9BC700BACC76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				643C048D1E2F9BC700BACC76 /* Solera */,
+				643C04A11E2F9BC700BACC76 /* SoleraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		643C048C1E2F9BC700BACC76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64EB3D491E2F9D8D00691F2E /* Assets.xcassets in Resources */,
+				64EB3D551E2F9E0A00691F2E /* Main.storyboard in Resources */,
+				64EB3D541E2F9E0A00691F2E /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643C04A01E2F9BC700BACC76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		327ECBE6557C54C78859E050 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoleraTests/Pods-SoleraTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48F0A25C051D017251C5551E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50B2AEFEB44E0E9AC429C7C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoleraTests/Pods-SoleraTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA7E7B541FAC8324FA033E99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C01B8258C8349AE55B642510 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Solera/Pods-Solera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5BD2D586FCC1A0AE6BAAC03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Solera/Pods-Solera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		643C048A1E2F9BC700BACC76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648DF84F1E2F9FFD007FE15D /* CurrencyTableViewCell.swift in Sources */,
+				645611EF1E2FA4E60070E693 /* CheckoutPriceTableViewCell.swift in Sources */,
+				648DF8411E2F9F60007FE15D /* Item.swift in Sources */,
+				645611F11E2FA4F90070E693 /* Persistence.swift in Sources */,
+				645611F31E2FA5050070E693 /* Settings.swift in Sources */,
+				648DF83F1E2F9F53007FE15D /* Currency.swift in Sources */,
+				648DF8391E2F9F03007FE15D /* CheckOutViewController.swift in Sources */,
+				648DF83B1E2F9F19007FE15D /* CurrencyViewController.swift in Sources */,
+				64EB3D451E2F9D6F00691F2E /* AppDelegate.swift in Sources */,
+				648DF8351E2F9EBA007FE15D /* ShopViewController.swift in Sources */,
+				648DF83D1E2F9F49007FE15D /* Basket.swift in Sources */,
+				648DF84B1E2F9FDC007FE15D /* CheckoutItemTableViewCell.swift in Sources */,
+				645611ED1E2FA4C40070E693 /* Network.swift in Sources */,
+				648DF8491E2F9FCF007FE15D /* ShopItemTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643C049E1E2F9BC700BACC76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645611F51E2FB38C0070E693 /* ShopViewControllerTests.swift in Sources */,
+				643C04A71E2F9BC700BACC76 /* SoleraTests.swift in Sources */,
+				645611F71E2FB3AA0070E693 /* CheckOutViewControllerTests.swift in Sources */,
+				645611F91E2FB3BD0070E693 /* CurrencyViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		643C04A41E2F9BC700BACC76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 643C048D1E2F9BC700BACC76 /* Solera */;
+			targetProxy = 643C04A31E2F9BC700BACC76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64EB3D4F1E2F9E0A00691F2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64EB3D501E2F9E0A00691F2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		64EB3D511E2F9E0A00691F2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64EB3D521E2F9E0A00691F2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		643C04A91E2F9BC700BACC76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		643C04AA1E2F9BC700BACC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		643C04AC1E2F9BC700BACC76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2446A5438506363F534BFF18 /* Pods-Solera.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 92K55N8443;
+				INFOPLIST_FILE = Solera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Manuel.Escrig.Solera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		643C04AD1E2F9BC700BACC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 349E8C1AF99C3162A8CE53EB /* Pods-Solera.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 92K55N8443;
+				INFOPLIST_FILE = Solera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Manuel.Escrig.Solera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		643C04AF1E2F9BC700BACC76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0412717C6A84D48C740FA4E /* Pods-SoleraTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 92K55N8443;
+				INFOPLIST_FILE = SoleraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Manuel.Escrig.SoleraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solera.app/Solera";
+			};
+			name = Debug;
+		};
+		643C04B01E2F9BC700BACC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B2C12DF6E477E211638FCE7 /* Pods-SoleraTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 92K55N8443;
+				INFOPLIST_FILE = SoleraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Manuel.Escrig.SoleraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solera.app/Solera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		643C04891E2F9BC700BACC76 /* Build configuration list for PBXProject "Solera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643C04A91E2F9BC700BACC76 /* Debug */,
+				643C04AA1E2F9BC700BACC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		643C04AB1E2F9BC700BACC76 /* Build configuration list for PBXNativeTarget "Solera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643C04AC1E2F9BC700BACC76 /* Debug */,
+				643C04AD1E2F9BC700BACC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		643C04AE1E2F9BC700BACC76 /* Build configuration list for PBXNativeTarget "SoleraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643C04AF1E2F9BC700BACC76 /* Debug */,
+				643C04B01E2F9BC700BACC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 643C04861E2F9BC700BACC76 /* Project object */;
+}
