@@ -1,2 +1,2 @@
 # Solera
-Solera Tech Test 
+Solera Tech Test  by Manuel Escrig Ventura
